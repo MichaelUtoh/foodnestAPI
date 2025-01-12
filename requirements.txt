@@ -1,1 +1,29 @@
-fastapi[all]
+# Core
+authlib
+bcrypt
+boto3
+botocore
+cloudinary
+fastapi
+motor
+passlib
+pillow
+pydantic[email]
+PyJWT
+pyotp
+python-decouple
+python-jose
+python-multipart
+qrcode
+requests
+uvicorn[standard]
+
+# Testing
+httpx
+pytest
+
+# Code Quality
+black
+flake8
+isort
+pre-commit
