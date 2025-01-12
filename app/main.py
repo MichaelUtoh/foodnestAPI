@@ -11,7 +11,7 @@ from app.core import settings
 
 origins = ["http://localhost:5173", "http://127.0.0.1:5173"]
 app = FastAPI(docs_url="/swagger", title="Foodnest")
-app.mount("/static", StaticFiles(directory="/static"), name="static")
+# app.mount("/static", StaticFiles(directory="/static"), name="static")
 app.include_router(accounts_router, prefix="/api/v1")
 app.include_router(products_router, prefix="/api/v1")
 app.include_router(orders_router, prefix="/api/v1")
